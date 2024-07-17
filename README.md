@@ -28,7 +28,6 @@ The project is built using the following technologies:
 - **Home Section**: Features a hero image, promotional text, and call-to-action buttons.
 - **Tours Section**: Display of available tour packages with categories and filtering options.
 - **Gallery Section**: Showcases beautiful images from various destinations.
-- **Testimonials Section**: Slider to display customer feedback and testimonials.
 - **Contact Section**: Contact form for users to get in touch, with additional contact details and map.
 - **Footer**: Social media links, copyright information, and a back-to-top button.
 
