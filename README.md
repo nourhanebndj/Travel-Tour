@@ -14,9 +14,9 @@ The project is built using the following technologies:
 
 Here is a video demonstration of the project:
 
-![Slide 1](./2023-06-04 (10).png)
-![Slide 2](./2023-06-04 (9).png)
-![Slide 3](./images/slide3.jpg)
+<img src="./2023-06-04 (9).png">
+<img src="./2023-06-04 (10).png">
+
 
 ## Features
 
