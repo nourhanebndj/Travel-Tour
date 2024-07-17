@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="travel tour.css" />
+    <title>Go Trip</title>
+    <link rel="website icon" type="png" href="logo.webp">
+</head>
+<header>
+    <div class="logo">
+        <span class="logo-text1">Dw travel</span>
+      </div>
+<nav class="navigation1">
+    <a href="travel tour.html">Home</a>
+    <a href="travel tour.html">Hotel</a>
+    <a href="reservation.html">Reservation</a>
+    <a href="travel tour.html">Our Tour</a>
+    <a href="travel tour.html">About us</a>
+    <a href="contact us.html">Contact-us</a>
+    <a href="login.html">login</a>
+</nav>
+</header>
+<section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="hotelistanbul.jpg" width="100%" id="MainImg" alt="">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="istanbul11.webp" width="100%" height="120%" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="istanbul12.webp" width="100%" height="120%"  class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="istanbul13.webp" width="100%"  height="120%"class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="istanbul14.webp" width="100%"height="120%"  class="small-img">
+            </div>
+        </div>
+    </div>
+    <div class="single-pro-details">
+        <h6>Istanbul</h6>
+        <h4>Hilton Garden Inn Istanbul Beylikduzu</h4>
+        <h2>1870$</h2>
+        <select>
+            <option>Choose the number of rooms</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <button> <a href="reservation.html">Book</button></a>
+        <h4>About the hotel</h4>
+        <span>In Istanbul (Esenyurt)
+            Stop by the hotel's restaurant, The Garden Grille, for lunch or dinner. Dining is also available at the coffee shop/cafe, and room service (during limited hours) is provided. Quench your thirst with your favorite drink at the bar/lounge. Full breakfasts are served on weekends from 7:00 AM to 11:00 AM for a fee.
+            Featured amenities include a 24-hour business center, express check-in, and complimentary newspapers in the lobby. Planning an event in Istanbul? This hotel has facilities measuring 5382 square feet (500 square meters), including conference space. Free self parking is available onsite.
+            </span>
+    </div></section>
+    <section id="contact-details" class="section-p1">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192661.81232227685!2d28.34905488671874!3d41.017799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55f0f5c753353%3A0x88711de0ce8476fd!2sHilton%20Garden%20Inn%20Istanbul%20Beylikduzu!5e0!3m2!1sfr!2sdz!4v1683885662434!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <script>
+        var MainImg=document.getElementById("MainImg");
+        var smallimg=document.getElementsByClassName("small-img");
+    
+        smallimg[0].onclick=function(){
+            MainImg.src=smallimg[0].src
+        }
+        smallimg[1].onclick=function(){
+            MainImg.src=smallimg[1].src
+        }
+        smallimg[2].onclick=function(){
+            MainImg.src=smallimg[2].src
+        }
+        smallimg[3].onclick=function(){
+            MainImg.src=smallimg[3].src
+        }
+        </script>
+        <script src="script.js"></script>
+        </body></html>

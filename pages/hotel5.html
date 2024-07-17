@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="travel tour.css" />
+    <title>Go Trip</title>
+    <link rel="website icon" type="png" href="logo.webp">
+</head>
+<header>
+    <div class="logo">
+        <span class="logo-text1">Dw travel</span>
+      </div>
+<nav class="navigation1">
+    <a href="travel tour.html">Home</a>
+    <a href="travel tour.html">Hotel</a>
+    <a href="reservation.html">Reservation</a>
+    <a href="travel tour.html">Our Tour</a>
+    <a href="travel tour.html">About us</a>
+    <a href="contact us.html">Contact-us</a>
+    <a href="login.html">login</a>
+</nav>
+</header>
+<section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="hotelquebec.jpg" width="100%" id="MainImg" alt="">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="quebec11.jpg" width="110%" height="120%" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="quebec12.jpg" width="100%" height="120%"  class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="quebec13.jpg" width="100%"  height="120%"class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="quebec14.jpg" width="100%"height="120%"  class="small-img">
+            </div>
+        </div>
+    </div>
+    <div class="single-pro-details">
+        <h6>Quebec</h6>
+        <h4>Hotel Quartier</h4>
+        <h2>3000$</h2>
+        <select>
+            <option>Choose the number of rooms</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <button> <a href="reservation.html">Book</button></a>
+        <h4>About the hotel</h4>
+        <span>This trendy modern hotel is located in the Sainte-Foy-Sillery district, a 13-minute walk from the Laurier Quebec shopping center, 2 km from Laval University and 9.5 km from Quebec Jean-Lesage International Airport .…
+            </span>
+    </div></section>
+    <section id="contact-details" class="section-p1">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10931.895502128113!2d-71.2908786!3d46.7654114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb8912dfca4a463%3A0xe8155eeb889dd071!2sH%C3%B4tel%20Quartier!5e0!3m2!1sfr!2sdz!4v1683888714278!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <script>
+        var MainImg=document.getElementById("MainImg");
+        var smallimg=document.getElementsByClassName("small-img");
+    
+        smallimg[0].onclick=function(){
+            MainImg.src=smallimg[0].src
+        }
+        smallimg[1].onclick=function(){
+            MainImg.src=smallimg[1].src
+        }
+        smallimg[2].onclick=function(){
+            MainImg.src=smallimg[2].src
+        }
+        smallimg[3].onclick=function(){
+            MainImg.src=smallimg[3].src
+        }
+        </script>
+        <script src="script.js"></script>
+        </body></html>
